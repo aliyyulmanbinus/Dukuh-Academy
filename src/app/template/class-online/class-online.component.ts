@@ -3,6 +3,7 @@ import { HeaderComponent } from '@components/class-online/header/header.componen
 import { BannerComponent } from '@components/class-online/banner/banner.component';
 import { HeaderMenuComponent } from '@components/class-online/header-menu/header-menu.component';
 import { AboutUsComponent } from '@components/class-online/about-us/about-us.component';
+import { NewsComponent } from '@components/class-online/news/news.component';
 @Component({
   selector: 'app-class-online',
   standalone: true,
@@ -10,7 +11,8 @@ import { AboutUsComponent } from '@components/class-online/about-us/about-us.com
     HeaderComponent,
     BannerComponent,
     HeaderMenuComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    NewsComponent
   ],
   templateUrl: './class-online.component.html',
   styleUrl: './class-online.component.css'
