@@ -1,18 +1,18 @@
 <mat-toolbar class="header-menu-section">
-    <!-- <img src="..." alt="..."> -->
-     <h1 class="logo-text"> Logo Course </h1>
-     <span class="spacer"></span>
-     <button mat-icon-button class="menu-btn" aria-label="menu-btn">
+    <!-- <img src="assets/images/logo.avif" alt="logo" class="logo" /> -->
+    <h1 class="logo-text">Logo School</h1>
+    <span class="spacer"></span>
+    <button mat-icon-button class="menu-btn" aria-label="menu-btn">
         <mat-icon>menu</mat-icon>
-     </button>
-     <div class="menu-collapse">
+    </button>
+    <div class="menu-collapse">
         <mat-list role="list" class="list-menu">
             <mat-list-item (click)="gotoDiv('beranda')"><span>Beranda</span></mat-list-item>
-            <mat-list-item (click)="gotoDiv('about')"><span></span>About</mat-list-item>
-            <mat-list-item (click)="gotoDiv('news')"><span></span>News</mat-list-item>
-            <mat-list-item (click)="gotoDiv('achievement')"><span></span>Achievement</mat-list-item>
-            <mat-list-item (click)="gotoDiv('student')"><span></span>Student</mat-list-item>
-            <mat-list-item (click)="gotoDiv('login')"><span></span>Login</mat-list-item>
+            <mat-list-item (click)="gotoDiv('about')" role="listitem"><span>About</span></mat-list-item>
+            <mat-list-item (click)="gotoDiv('news')" role="listitem"><span>News</span></mat-list-item>
+            <mat-list-item (click)="gotoDiv('achievement')" role="listitem"><span>Achievement</span></mat-list-item>
+            <mat-list-item (click)="gotoDiv('students')" role="listitem"><span>Students & Alumni</span></mat-list-item>
+            <mat-list-item (click)="gotoDiv('login')"  role="listitem"><span>Login</span></mat-list-item>
         </mat-list>
-     </div>
+    </div>
 </mat-toolbar>
