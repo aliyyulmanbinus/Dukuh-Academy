@@ -4,6 +4,9 @@ import { BannerComponent } from '@components/class-online/banner/banner.componen
 import { HeaderMenuComponent } from '@components/class-online/header-menu/header-menu.component';
 import { AboutUsComponent } from '@components/class-online/about-us/about-us.component';
 import { NewsComponent } from '@components/class-online/news/news.component';
+import { AchievementComponent } from '@components/class-online/achievement/achievement.component';
+
+AchievementComponent
 @Component({
   selector: 'app-class-online',
   standalone: true,
@@ -12,7 +15,8 @@ import { NewsComponent } from '@components/class-online/news/news.component';
     BannerComponent,
     HeaderMenuComponent,
     AboutUsComponent,
-    NewsComponent
+    NewsComponent,
+    AchievementComponent
   ],
   templateUrl: './class-online.component.html',
   styleUrl: './class-online.component.css'
