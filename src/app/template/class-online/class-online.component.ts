@@ -6,6 +6,7 @@ import { AboutUsComponent } from '@components/class-online/about-us/about-us.com
 import { NewsComponent } from '@components/class-online/news/news.component';
 import { AchievementComponent } from '@components/class-online/achievement/achievement.component';
 import { TestimonialComponent } from '@components/class-online/testimonial/testimonial.component';
+import { FooterComponent } from '@components/class-online/footer/footer.component';
 
 @Component({
   selector: 'app-class-online',
@@ -17,7 +18,8 @@ import { TestimonialComponent } from '@components/class-online/testimonial/testi
     AboutUsComponent,
     NewsComponent,
     AchievementComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    FooterComponent
   ],
   templateUrl: './class-online.component.html',
   styleUrl: './class-online.component.css'
