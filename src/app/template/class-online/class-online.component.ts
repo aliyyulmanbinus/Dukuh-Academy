@@ -5,8 +5,8 @@ import { HeaderMenuComponent } from '@components/class-online/header-menu/header
 import { AboutUsComponent } from '@components/class-online/about-us/about-us.component';
 import { NewsComponent } from '@components/class-online/news/news.component';
 import { AchievementComponent } from '@components/class-online/achievement/achievement.component';
+import { TestimonialComponent } from '@components/class-online/testimonial/testimonial.component';
 
-AchievementComponent
 @Component({
   selector: 'app-class-online',
   standalone: true,
@@ -16,7 +16,8 @@ AchievementComponent
     HeaderMenuComponent,
     AboutUsComponent,
     NewsComponent,
-    AchievementComponent
+    AchievementComponent,
+    TestimonialComponent
   ],
   templateUrl: './class-online.component.html',
   styleUrl: './class-online.component.css'
